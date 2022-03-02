@@ -1,0 +1,46 @@
+.box {
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  box-shadow: 4px 4px 4px 3px rgb(20, 172, 152);
+  padding: 2px;
+  text-shadow: 4px 4px 3px rgb(32, 55, 184);
+  background-color: rgb(103, 235, 86);
+
+  transition: transform 5s;
+  margin: 15px;
+  margin-left: 50px;
+}
+h2 {
+  text-shadow: 4px 4px 3px rgb(128, 128, 128);
+  color: darkblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box1:hover {
+  transform: rotate(360deg);
+}
+.box2 {
+  background-color: rgb(141, 13, 34);
+  transition: transform 5s;
+}
+.box2:hover {
+  transform: translate(500px);
+}
+.box3 {
+  background-color: rgb(192, 175, 24);
+  transition: width 5s;
+  transition-delay: 1s;
+}
+.box3:hover {
+  width: 400px;
+}
+.shadow {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(214, 39, 65);
+
+  box-shadow: 20px 2px 9px rgb(20, 33, 220);
+}
+.text {
+  font-size: 30px;
+}
